@@ -80,7 +80,17 @@ void main() {
 
     scanf("%d", &opcao);
     printf("A opção escolhida foi: %d\n", opcao);
-  } while (opcao != 0);
+  }     
+    if("%d",opcao == 1) {
+        printf("Qual o nome do filme que deseja cadastrar:");
+        scanf("%d", &opcao);
+    }else{
+        if("%d",opcao == 2){
+            
+        }
+    }
+ 
+  while (opcao != 0);
   
 
 }
